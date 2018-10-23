@@ -1,4 +1,8 @@
 def Bubble_Sort(lst):
+    
+    if len(lst) == 1:
+        return lst
+    
     for sorting in range(0, len(lst)-1):
         flag = False
         for element in range(1, len(lst)):
