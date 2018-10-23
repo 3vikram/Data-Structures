@@ -5,10 +5,6 @@ def Bubble_Sort(lst):
                 swampElement = lst[element-1]
                 lst[element-1] = lst[element]
                 lst[element] = swampElement
-            elif lst[element-1] < lst[element]:
-                continue
-            elif lst[element-1] == lst[element]:
-                continue
     return lst
 
 if __name__ == '__main__':
