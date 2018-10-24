@@ -1,0 +1,6 @@
+Recursion:
+
+Properties of Recursion:
+
+1. Same operation performed multiple times with different input values
+2. In every step we try to make the problem smaller
