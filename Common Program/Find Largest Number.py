@@ -3,12 +3,9 @@ def find_largest_number(lst):
     for lst_elements in range(len(lst)):
         if largestNumber < lst[lst_elements]:
             largestNumber = lst[lst_elements]
-        elif largestNumber > lst[lst_elements]:
-            continue
-        elif largestNumber == lst[lst_elements]:
-            continue
 
     return largestNumber
+
 
 
 if __name__ == '__main__':
