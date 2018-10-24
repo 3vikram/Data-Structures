@@ -6,4 +6,25 @@ Properties of Recursion:
 2. In every step we try to make the problem smaller
 3. We mandatorily need to have a base condition, which tells the system when to stop
 
+Reasons to learn recursion:
+
+1. Recursion is prefered over iteration when a given problem can be broken down to a similar small or sub problem
+2. In Tree and graph algorithms recursion is mostly used to solve problems
+
+Format of a recursive function:
+
+1. Recursive case - Case where the function should recall itself
+2. Base case - Case where the function does not need to recall itself (termination condition)
+
+Example:
+
+SampleRecursion (parameter) {
+  if (base case is satisfied) {
+    return some base case value
+  else
+    SampleRecursion (modified parameter)
+  }
+}
+
+How Recursion works internally at stack memory?
 
