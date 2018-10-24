@@ -3,10 +3,6 @@ def find_smallest_number(lst):
     for lst_elements in range(len(lst)):
         if smallestNumber > lst[lst_elements]:
             smallestNumber = lst[lst_elements]
-        elif smallestNumber < lst[lst_elements]:
-            continue
-        elif smallestNumber == lst[lst_elements]:
-            continue
 
     return smallestNumber
 
