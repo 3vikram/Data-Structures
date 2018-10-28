@@ -23,7 +23,7 @@ In this case,
 
 >> Theta, assuming the element that we search can be at any position in an array and it can vary at a any given time based on the searching element in an array, Theta(n/2)
 
-Big O can have following notations,
+Big O can have following 7 time complexities,
 
 O(1)
 O(n)
