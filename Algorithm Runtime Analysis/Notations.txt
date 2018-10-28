@@ -12,3 +12,15 @@ Omega()/ minimum time, for any input, runtime of an algorithm will not be "less 
 Big-o (O)/ maximum time, for any input, runtime of an algorithm will not be "more than" given time 
 Theta()/ average time, for any input, runtime of an algorithm will "on an average" be equal to given time
 
+For a given array, to find an element these might be the possible cases,
+
+Assume we have 1000 elements in an array and we are looking for a specific element present in an array or not, each index is denoted by term 'n'
+
+In this case, 
+
+>> Omeage will be Omega(1), assuming the element we are searching in an array is in first index of an array
+>> Big-o will be O(n), assuming the given element to search is present in the nth index of an array, the 'n' can be atmost of a given length of an array and in this case it's O(1000)
+
+>> Theta, assuming the element that we search can be at any position in an array and it can vary at a any given time based on the searching element in an array, Theta(n/2)
+
+
