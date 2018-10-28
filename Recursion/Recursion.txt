@@ -32,4 +32,23 @@ Refer "Recursion.png" under "Recursion" folder
 
 Algorithm Run time analysis:
 
-Recursion
+Recursion is said to have no time and space efficient but it is said to have ease of code (solving small similar sub problems)
+
+Iteration is said to have both time and space efficient but implementation or ease of code is complex
+
+When to use recursion?
+
+>> When we can breakdown a problem to a similar sub problem
+>> When we are fine with the extra overhead with time and space complexity
+>> When in need of quick solution than a efficient solution
+
+When to not use recursion?
+
+>> If the answer is no to any of the above 3 use of recursion then this is not recommended
+
+Use cases of recursion?
+
+>> Stack
+>> Tree (Traversing/ searching/ insert and delete)
+>> Sorting (Quick sort and Merge sort)
+>> Divide and conqer (Braking problem into similar sub problems)
