@@ -1,1 +1,8 @@
+Algorithm Runtime Analysis (ARA):
+
+Time an algorithm takes to run various given input of increasing size
+
+We need to use ARA to measure the efficiency of an algorithm
+
+Notations for ARA:
 
