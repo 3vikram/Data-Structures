@@ -6,3 +6,9 @@ We need to use ARA to measure the efficiency of an algorithm
 
 Notations for ARA:
 
+An algorithm will be tested against worst case, best case and average case.
+
+Omega()/ minimum time, for any input, runtime of an algorithm will not be "less than" given time
+Big-o (O)/ maximum time, for any input, runtime of an algorithm will not be "more than" given time 
+Theta()/ average time, for any input, runtime of an algorithm will "on an average" be equal to given time
+
