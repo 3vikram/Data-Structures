@@ -23,4 +23,12 @@ In this case,
 
 >> Theta, assuming the element that we search can be at any position in an array and it can vary at a any given time based on the searching element in an array, Theta(n/2)
 
+Big O can have following notations,
 
+O(1)
+O(n)
+O(log n)
+O(n log n)
+O(n^2)
+O(n^3)
+O(2^n)
